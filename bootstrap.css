@@ -1,0 +1,267 @@
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo_img {
+    width: 14rem;
+    height: auto;
+}
+
+.bg,
+.nav-top {
+    background-color: var(--primaryColor);
+    list-style: none;
+    color: var(--whiteColor);
+}
+
+.nav-text {
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+    color: var(--whiteColor);
+}
+
+.top-list i {
+    background-color: var(--whiteColor);
+    font-size: 1.6rem;
+    color: var(--tertiaryColor);
+    border-radius: 25%;
+    height: 2.2rem;
+    width: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item a {
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+    color: var(--primaryColor);
+    font-weight: 600;
+}
+
+.nav-item a:hover {
+    color: var(--tertiaryColor);
+    text-decoration: none;
+}
+
+.nav-btn {
+    background-color: var(--primaryColor);
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+}
+
+.nav-btn:hover {
+    background-color: var(--tertiaryColor);
+    color: var(--primaryColor);
+}
+
+.hero-title {
+    font-family: var(--ffPrimary);
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--primaryColor);
+}
+
+.heroSectionImg {
+    width: 60rem;
+}
+
+.sub_heading {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: var(--lightColor);
+}
+
+.addtext {
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+    color: var(--darkColor);
+}
+
+.lead {
+    font-family: var(--ffPrimary);
+    font-size: 3.2rem;
+    color: var(--tertiaryColor);
+}
+
+.card-title {
+    font-family: var(--ffSecondary);
+    font-size: 4.8rem;
+    color: var(--lightColor);
+}
+
+.card-text {
+    font-family: var(--ffSecondary);
+    font-size: 2rem;
+    color: var(--fifthColor);
+}
+
+.lovikImg {
+    width: 45rem;
+}
+
+.nav-btn,
+.btn,
+.form-control {
+    border-radius: 0.8rem;
+}
+
+.title {
+    font-family: var(--ffPrimary);
+    font-size: 2.4rem;
+    color: var(--primaryColor);
+}
+
+.text {
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+    color: var(--fifthColor);
+}
+
+h2 {
+    font-family: var(--ffPrimary);
+    font-size: 3.6rem;
+    color: var(--primaryColor);
+}
+
+.demo-lists {
+    font-size: 1.4rem;
+    color: var(--primaryColor);
+}
+
+.form-control,
+.btn {
+    font-family: var(--ffPrimary);
+    font-size: 1.6rem;
+}
+
+.footer-title {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: var(--whiteColor);
+}
+
+.footer-text {
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+    color: var(--fourthColor);
+}
+
+.number i {
+    background-color: var(--whiteColor);
+    font-size: 0.6rem;
+    color: var(--tertiaryColor);
+    border-radius: 25%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    background-color: var(--whiteColor);
+}
+
+.number,
+.number:hover {
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+    color: var(--fourthColor);
+    text-decoration: none;
+}
+
+.number i {
+    font-size: 2.4rem;
+}
+
+.maps iframe {
+    width: 30rem;
+    height: 25rem;
+}
+
+.footer-icons {
+    font-size: 2.5rem;
+    color: var(--whiteColor);
+}
+
+.copyright {
+    font-family: var(--ffSecondary);
+    font-size: 1.4rem;
+    color: var(--whiteColor);
+}
+
+.socialMedia {
+    position: fixed;
+    top: 23rem;
+    left: 0;
+}
+
+.fixed-icons {
+    font-size: 2.4rem;
+    color: var(--lightColor);
+}
+
+.fixed-icons:hover {
+    color: var(--tertiaryColor);
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.what-icon {
+    font-size: 4rem;
+}
+
+.carousel-body {
+    width: auto;
+    height: 35rem;
+    border-radius: 3rem;
+}
+
+.carousel-body h4 {
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+}
+
+.carousel-body h6,
+p {
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+}
+
+.card {
+    width: 18rem;
+    height: 18rem;
+}
+
+.card-head img {
+    width: 18rem;
+}
+
+.card-heading h5 {
+    font-size: 1.8rem;
+    padding: 1rem;
+    color: var(--primaryColor);
+}
+
+.card-flip {
+    width: 30rem;
+    height: 20rem;
+}
+
+.card-img img {
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.maps .iframe {
+    width: 25rem;
+    height: 22rem;
+}
