@@ -333,23 +333,27 @@ p {
         justify-content: center;
     }
 
-    .served h2{
+    .served h2 {
         font-size: 4rem;
     }
 
-    .carousel-body{
+    .carousel-body {
         width: fit-content;
         height: 55rem;
     }
 
-    .footer .row{
+    .footer .row {
         padding-top: 3rem;
     }
 
-    .contact{
+    .contact {
         display: flex;
         align-items: center;
         justify-content: start;
+    }
+
+    .clientImg{
+        display: none;
     }
 }
 
