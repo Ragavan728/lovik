@@ -1,8 +1,8 @@
-.nav {
+/* .nav {
     position: sticky;
     top: 0;
     z-index: 1;
-}
+} */
 
 .logo_img {
     width: 14rem;
@@ -59,7 +59,7 @@
 
 .hero-title {
     font-family: var(--ffPrimary);
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 800;
     color: var(--primaryColor);
 }
@@ -264,4 +264,118 @@ p {
 .maps .iframe {
     width: 25rem;
     height: 22rem;
+}
+
+.clientImg {
+    width: 18rem;
+}
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        padding-top: 6rem;
+    }
+
+    .lead {
+        font-size: 2.7rem;
+    }
+
+    .hero-title {
+        font-size: 4.6rem;
+    }
+
+    .heroSectionImg {
+        padding-top: 2rem;
+    }
+
+    .lovikImg {
+        width: 20rem;
+    }
+
+    .marketing .row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .media .row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content .row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobileApp .row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .served h2{
+        font-size: 4rem;
+    }
+
+    .carousel-body{
+        width: fit-content;
+        height: 55rem;
+    }
+
+    .footer .row{
+        padding-top: 3rem;
+    }
+
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (width >=577px) and (width <=768px) {
+    /* write code here */
+}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (min-width: 1200px)  */
+@media (width >=1200px) {
+    /* write code here */
 }

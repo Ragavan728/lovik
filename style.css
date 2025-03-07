@@ -25,6 +25,7 @@ body {
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
     font-optical-sizing: auto;
+    padding-top: 8rem;
 }
 
 
@@ -34,22 +35,23 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 1.2rem;
+    width: 1.3rem;
 }
 
 ::-webkit-scrollbar-track {
-    background: #a0a0a0;
+    background: #e8e7e7;
     border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 2px;
-    border: 1px solid #2b2b2b;
+    background: #d6d6d6;
+    border-radius: 5px;
+    border: 1px solid #979797;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #888;
+    border: 1px solid #212529;
 }
 
 h1,
